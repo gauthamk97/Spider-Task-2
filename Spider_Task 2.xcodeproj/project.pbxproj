@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC535EE81D1A9CDE00D70971 /* A Sky Full of Stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC535EE71D1A9CDE00D70971 /* A Sky Full of Stars.mp3 */; };
+		AC535EEB1D1AA3C600D70971 /* Counting Stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC535EE91D1AA3C600D70971 /* Counting Stars.mp3 */; };
+		AC535EEC1D1AA3C600D70971 /* Hurts Like Heaven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC535EEA1D1AA3C600D70971 /* Hurts Like Heaven.mp3 */; };
+		ACC8EFA31D186DBE000A6B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8EFA21D186DBE000A6B30 /* AppDelegate.swift */; };
+		ACC8EFA51D186DBE000A6B30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8EFA41D186DBE000A6B30 /* ViewController.swift */; };
+		ACC8EFA81D186DBE000A6B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC8EFA61D186DBE000A6B30 /* Main.storyboard */; };
+		ACC8EFAA1D186DBE000A6B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC8EFA91D186DBE000A6B30 /* Assets.xcassets */; };
+		ACC8EFAD1D186DBE000A6B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC8EFAB1D186DBE000A6B30 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC535EE71D1A9CDE00D70971 /* A Sky Full of Stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A Sky Full of Stars.mp3"; sourceTree = "<group>"; };
+		AC535EE91D1AA3C600D70971 /* Counting Stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Counting Stars.mp3"; sourceTree = "<group>"; };
+		AC535EEA1D1AA3C600D70971 /* Hurts Like Heaven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hurts Like Heaven.mp3"; sourceTree = "<group>"; };
+		ACC8EF9F1D186DBD000A6B30 /* Spider_Task 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spider_Task 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC8EFA21D186DBE000A6B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC8EFA41D186DBE000A6B30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACC8EFA71D186DBE000A6B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC8EFA91D186DBE000A6B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC8EFAC1D186DBE000A6B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC8EFAE1D186DBE000A6B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC8EF9C1D186DBD000A6B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC8EF961D186DBD000A6B30 = {
+			isa = PBXGroup;
+			children = (
+				AC535EE91D1AA3C600D70971 /* Counting Stars.mp3 */,
+				AC535EEA1D1AA3C600D70971 /* Hurts Like Heaven.mp3 */,
+				AC535EE71D1A9CDE00D70971 /* A Sky Full of Stars.mp3 */,
+				ACC8EFA11D186DBD000A6B30 /* Spider_Task 2 */,
+				ACC8EFA01D186DBD000A6B30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC8EFA01D186DBD000A6B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8EF9F1D186DBD000A6B30 /* Spider_Task 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC8EFA11D186DBD000A6B30 /* Spider_Task 2 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8EFA21D186DBE000A6B30 /* AppDelegate.swift */,
+				ACC8EFA41D186DBE000A6B30 /* ViewController.swift */,
+				ACC8EFA61D186DBE000A6B30 /* Main.storyboard */,
+				ACC8EFA91D186DBE000A6B30 /* Assets.xcassets */,
+				ACC8EFAB1D186DBE000A6B30 /* LaunchScreen.storyboard */,
+				ACC8EFAE1D186DBE000A6B30 /* Info.plist */,
+			);
+			path = "Spider_Task 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC8EF9E1D186DBD000A6B30 /* Spider_Task 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC8EFB11D186DBE000A6B30 /* Build configuration list for PBXNativeTarget "Spider_Task 2" */;
+			buildPhases = (
+				ACC8EF9B1D186DBD000A6B30 /* Sources */,
+				ACC8EF9C1D186DBD000A6B30 /* Frameworks */,
+				ACC8EF9D1D186DBD000A6B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spider_Task 2";
+			productName = "Spider_Task 2";
+			productReference = ACC8EF9F1D186DBD000A6B30 /* Spider_Task 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC8EF971D186DBD000A6B30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gautham Kumar";
+				TargetAttributes = {
+					ACC8EF9E1D186DBD000A6B30 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VPM5RWXN8D;
+					};
+				};
+			};
+			buildConfigurationList = ACC8EF9A1D186DBD000A6B30 /* Build configuration list for PBXProject "Spider_Task 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC8EF961D186DBD000A6B30;
+			productRefGroup = ACC8EFA01D186DBD000A6B30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC8EF9E1D186DBD000A6B30 /* Spider_Task 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC8EF9D1D186DBD000A6B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC8EFAD1D186DBE000A6B30 /* LaunchScreen.storyboard in Resources */,
+				ACC8EFAA1D186DBE000A6B30 /* Assets.xcassets in Resources */,
+				AC535EE81D1A9CDE00D70971 /* A Sky Full of Stars.mp3 in Resources */,
+				ACC8EFA81D186DBE000A6B30 /* Main.storyboard in Resources */,
+				AC535EEB1D1AA3C600D70971 /* Counting Stars.mp3 in Resources */,
+				AC535EEC1D1AA3C600D70971 /* Hurts Like Heaven.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC8EF9B1D186DBD000A6B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC8EFA51D186DBE000A6B30 /* ViewController.swift in Sources */,
+				ACC8EFA31D186DBE000A6B30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACC8EFA61D186DBE000A6B30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC8EFA71D186DBE000A6B30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC8EFAB1D186DBE000A6B30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC8EFAC1D186DBE000A6B30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC8EFAF1D186DBE000A6B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC8EFB01D186DBE000A6B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC8EFB21D186DBE000A6B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Spider_Task 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GK.Spider-Task-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		ACC8EFB31D186DBE000A6B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Spider_Task 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GK.Spider-Task-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC8EF9A1D186DBD000A6B30 /* Build configuration list for PBXProject "Spider_Task 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC8EFAF1D186DBE000A6B30 /* Debug */,
+				ACC8EFB01D186DBE000A6B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC8EFB11D186DBE000A6B30 /* Build configuration list for PBXNativeTarget "Spider_Task 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC8EFB21D186DBE000A6B30 /* Debug */,
+				ACC8EFB31D186DBE000A6B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC8EF971D186DBD000A6B30 /* Project object */;
+}
