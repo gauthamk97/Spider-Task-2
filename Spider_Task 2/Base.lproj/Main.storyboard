@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bU4-D0-FGm">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bU4-D0-FGm">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Start Slideshow"/>
                                 <connections>
                                     <action selector="OnSlideshowClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SDV-c8-YIb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-wJ-76X">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-wJ-76X">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Play"/>
@@ -33,7 +33,7 @@
                                     <action selector="OnPlayStopClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aqp-dX-3CS"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SS2-00-0yD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SS2-00-0yD">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="4Uf-fA-bEv"/>
@@ -58,7 +58,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultpic" translatesAutoresizingMaskIntoConstraints="NO" id="YL5-nU-KwS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defaultpic" translatesAutoresizingMaskIntoConstraints="NO" id="YL5-nU-KwS">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="YL5-nU-KwS" secondAttribute="height" multiplier="200:107" id="Lms-Js-efl"/>
@@ -69,7 +69,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rxF-Bx-esC">
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rxF-Bx-esC">
                                 <rect key="frame" x="0.0" y="-216" width="320" height="216"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="193" id="La3-oL-xB1">
@@ -142,6 +142,10 @@
                                 <exclude reference="78Z-YK-Jnb"/>
                                 <exclude reference="QRf-wE-4FY"/>
                                 <exclude reference="SNB-Zs-Jq0"/>
+                                <exclude reference="Mmf-my-hAc"/>
+                                <exclude reference="dA4-v3-aSo"/>
+                                <exclude reference="erO-qJ-4oG"/>
+                                <exclude reference="ltz-Ra-n6v"/>
                                 <exclude reference="2eU-Ez-Cau"/>
                                 <exclude reference="38F-3n-7sl"/>
                                 <exclude reference="HqY-QW-EkT"/>
@@ -150,32 +154,28 @@
                                 <exclude reference="GCF-rc-IPy"/>
                                 <exclude reference="dt3-Tk-aE7"/>
                                 <exclude reference="m7Z-2c-Ncr"/>
-                                <exclude reference="ztI-uI-hu3"/>
                                 <exclude reference="0AX-kf-n9x"/>
                                 <exclude reference="Rss-0k-R6A"/>
                                 <exclude reference="Yiw-fx-nAn"/>
                                 <exclude reference="dVL-0s-d2G"/>
                                 <exclude reference="s2u-kP-wga"/>
-                                <exclude reference="Mmf-my-hAc"/>
-                                <exclude reference="dA4-v3-aSo"/>
-                                <exclude reference="erO-qJ-4oG"/>
-                                <exclude reference="ltz-Ra-n6v"/>
+                                <exclude reference="ztI-uI-hu3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
                                 <include reference="78Z-YK-Jnb"/>
                                 <include reference="SNB-Zs-Jq0"/>
+                                <include reference="dA4-v3-aSo"/>
+                                <include reference="ltz-Ra-n6v"/>
                                 <include reference="2eU-Ez-Cau"/>
                                 <include reference="eRP-8K-WhI"/>
                                 <include reference="dt3-Tk-aE7"/>
                                 <include reference="m7Z-2c-Ncr"/>
-                                <include reference="ztI-uI-hu3"/>
                                 <include reference="Rss-0k-R6A"/>
                                 <include reference="Yiw-fx-nAn"/>
                                 <include reference="dVL-0s-d2G"/>
-                                <include reference="dA4-v3-aSo"/>
-                                <include reference="ltz-Ra-n6v"/>
+                                <include reference="ztI-uI-hu3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -190,14 +190,14 @@
                                 <include reference="02V-mL-pAb"/>
                                 <include reference="5Ra-6c-8NC"/>
                                 <include reference="QRf-wE-4FY"/>
+                                <include reference="Mmf-my-hAc"/>
+                                <include reference="erO-qJ-4oG"/>
                                 <include reference="38F-3n-7sl"/>
                                 <include reference="HqY-QW-EkT"/>
                                 <include reference="B4C-O9-wm2"/>
                                 <include reference="GCF-rc-IPy"/>
                                 <include reference="0AX-kf-n9x"/>
                                 <include reference="s2u-kP-wga"/>
-                                <include reference="Mmf-my-hAc"/>
-                                <include reference="erO-qJ-4oG"/>
                             </mask>
                         </variation>
                     </view>

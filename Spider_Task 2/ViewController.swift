@@ -112,6 +112,7 @@ class ViewController: UIViewController, UIPickerViewDelegate,UIPickerViewDataSou
             imageTimer?.invalidate()
             
             UIView.transitionWithView(self.MainImage, duration: 1, options: .TransitionCrossDissolve, animations: {self.MainImage.image = UIImage(named: "defaultpic")}, completion: nil)
+            imageno = 0 
             
         }
         else {
